@@ -1,0 +1,31 @@
+{
+  "name": "internship-assignment",
+  "version": "1.0.0",
+  "description": "Making a REST API for Internship assignment",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "set NODE_ENV=production && node server"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "mongodb"
+  ],
+  "author": "Ishan Gawali",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.2.10",
+    "morgan": "^1.10.0",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
